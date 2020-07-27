@@ -5,6 +5,7 @@ body{
     background-color: #FAF8DC;
     width: 100%;
     color: #3A5928;
+    font-family: 'Rowdies', cursive;
     text-align: justify;
     
 }
@@ -80,6 +81,7 @@ main{
 .entrevistas{
    width: 22%;
     float: left;
+    color: #6ED1D4;
     
 }
 
@@ -90,6 +92,7 @@ main{
     text-align: justify;
     font-size: 24px;
     font-weight: bold;
+    color: #FAF8DC;
     
     
 }
@@ -142,6 +145,7 @@ main{
     display: inline-block; 
     padding: 4px;
     text-transform: uppercase;
+    color: #FAF8DC;
 
 }
 
@@ -151,7 +155,8 @@ main{
     text-align: justify;
 }
 
-
+/***   Footer 
+*/
 .clear{
     clear: both;
 }
