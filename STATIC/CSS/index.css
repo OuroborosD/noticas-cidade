@@ -4,6 +4,9 @@ body{
     height: 233px;
     background-color: #FAF8DC;
     width: 100%;
+    color: #3A5928;
+    text-align: justify;
+    
 }
 
 /***   header 
@@ -14,7 +17,7 @@ nav{
     background: url(../imagens/n-brasil.png) no-repeat right top;
     height: 179px;
     text-align: justify;
-    border: 2px solid black;
+    
 
 }
 
@@ -38,8 +41,7 @@ li:first-child{
 
 .lista{
     display: inline-block;
-    background-color: #6ED1D4; 
-    border-radius: 2px;
+    background-color: #98B9F5; 
     margin-top: 130px;
    
 } 
@@ -62,9 +64,10 @@ li:first-child{
 
 
 main{
-    border: 2px solid black;
+    
     margin: 0px auto;
     margin-top: 80px;
+    margin-bottom: 80px;
     background-color: #FAF8DC;
     width: 80%;
     text-align: center;
@@ -75,34 +78,86 @@ main{
 
 
 .entrevistas{
-    display: inline-block;
-    box-shadow: 4px 0px 4px rgb(140, 214, 96, 0.8), -4px 0px 4px rgb(140, 214, 96, 0.8);;
-    
+   width: 22%;
+    float: left;
     
 }
-.entrevistas h3{
+
+.entrevistas h3, .direita h3, .esquerda h3{
     display: block;
-    background-color: rgb(140, 214, 96, 0.8);
-    padding: 8px  
+    background-color: #98B9F5;
+    padding: 8px; 
     text-align: justify;
+    font-size: 24px;
+    font-weight: bold;
     
     
 }
 
 .entrevistas li{
-    padding: 4px 0px;
+    
+    padding: 8px 0px;
+    text-align: justify;
+    text-transform: uppercase;
  
     
 }
 
 .conteudo{
-    border: 2px solid black;
+    width: 74%;
+    float: right;
+    
+}
+
+.conteudo img{
+    width: 100%;
 }
 
 .direita{
-    border: 2px solid black;
+    
+    float: right;
+    width: 47%;
 }
 
 .esquerda{
-    border: 2px solid black;
+    
+    float: left;
+    width: 47%;
+}
+
+.espacamento{
+    padding-bottom: 8px;
+    margin: 0px 0px 16px 0px;
+}
+.div-p{
+    text-align: justify;
+}
+
+.sub{
+    
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #86EBAB;
+    margin: 8px 0px;
+    display: inline-block; 
+    padding: 4px;
+    text-transform: uppercase;
+
+}
+
+.texto{
+    height: 32px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+.clear{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+   background-color: #86EBAB;
+   padding: 26px 0px;
 }
