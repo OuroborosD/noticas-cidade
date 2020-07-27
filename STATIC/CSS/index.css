@@ -1,0 +1,108 @@
+
+body{
+    background: url(../imagens/n-fundo.png) repeat-x;
+    height: 233px;
+    background-color: #FAF8DC;
+    width: 100%;
+}
+
+/***   header 
+*/
+
+
+nav{
+    background: url(../imagens/n-brasil.png) no-repeat right top;
+    height: 179px;
+    text-align: justify;
+    border: 2px solid black;
+
+}
+
+li:first-child{
+    background: none;
+}
+
+/*************************>Classes<***************************/
+
+.cabecalho{
+    text-align: center;
+    width: 80%;
+    margin: 0em auto;
+   
+}
+
+.logo{
+    margin: 12px auto;
+    background: url(../imagens/logo.png) no-repeat top left;
+}
+
+.lista{
+    display: inline-block;
+    background-color: #6ED1D4; 
+    border-radius: 2px;
+    margin-top: 130px;
+   
+} 
+
+.menu{
+    background: url(../imagens/div.png) repeat-y ;
+    display: inline-block;
+    padding: 8px;
+    color: #FAF8DC;
+}
+
+.menu:hover{
+    color:#86EBAB;
+    cursor: pointer;
+   
+}
+
+/***   Main 
+*/
+
+
+main{
+    border: 2px solid black;
+    margin: 0px auto;
+    margin-top: 80px;
+    background-color: #FAF8DC;
+    width: 80%;
+    text-align: center;
+}
+/*************************>Classes<***************************/
+/***    
+*/
+
+
+.entrevistas{
+    display: inline-block;
+    box-shadow: 4px 0px 4px rgb(140, 214, 96, 0.8), -4px 0px 4px rgb(140, 214, 96, 0.8);;
+    
+    
+}
+.entrevistas h3{
+    display: block;
+    background-color: rgb(140, 214, 96, 0.8);
+    padding: 8px  
+    text-align: justify;
+    
+    
+}
+
+.entrevistas li{
+    padding: 4px 0px;
+ 
+    
+}
+
+.conteudo{
+    border: 2px solid black;
+}
+
+.direita{
+    border: 2px solid black;
+}
+
+.esquerda{
+    border: 2px solid black;
+}
